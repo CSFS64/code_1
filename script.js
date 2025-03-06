@@ -38,8 +38,10 @@ noButton.addEventListener("click", function() {
 
     // 图片变化（前 5 次变化）
     if (clickCount === 1) mainImage.src = "images/shocked.jpg"; // 震惊
-    if (clickCount === 2) mainImage.src = "images/angry.jpg";   // 生气
-    if (clickCount >= 3) mainImage.src = "images/angry.jpg";  // 之后一直是生气
+    if (clickCount === 2) mainImage.src = "images/add1.jpg";   // 额外1
+    if (clickCount === 3) mainImage.src = "images/add2.jpg";   // 额外2
+    if (clickCount === 4) mainImage.src = "images/angry.jpg";   // 生气
+    if (clickCount >= 4) mainImage.src = "images/angry.jpg";  // 之后一直是生气
 
 });
 
